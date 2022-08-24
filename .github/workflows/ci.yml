@@ -170,7 +170,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   gcc11-x86-vendordir:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: gcc-11
       TARGET: x86
@@ -185,7 +185,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   gcc11-x86:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: gcc-11
       TARGET: x86
@@ -199,7 +199,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   gcc10-x86:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: gcc-10
       TARGET: x86
@@ -213,7 +213,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   gcc9-x86:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: gcc-9
       TARGET: x86
@@ -227,7 +227,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   gcc8-x86:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: gcc-8
       TARGET: x86
@@ -241,7 +241,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   clang10-x86:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: clang-10
       TARGET: x86
@@ -255,7 +255,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   clang9-x86:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: clang-9
       TARGET: x86
@@ -269,7 +269,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   clang8-x86:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: clang-8
       TARGET: x86
@@ -283,7 +283,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   gcc11-x32:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: gcc-11
       TARGET: x32
@@ -297,7 +297,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   gcc10-x32:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: gcc-10
       TARGET: x32
@@ -311,7 +311,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   gcc9-x32:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: gcc-9
       TARGET: x32
@@ -325,7 +325,7 @@ jobs:
       run: ci/run-build-and-tests.sh
 
   gcc8-x32:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       CC: gcc-8
       TARGET: x32

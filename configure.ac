@@ -384,7 +384,9 @@ PKG_CHECK_MODULES([CRYPT], [libcrypt], [
 	esac ;;
   esac
 ])
-AC_CHECK_FUNCS([crypt_r])
+AC_CHECK_FUNCS([crypt crypt_r])
+AS_IF([test "$ac_cv_func_crypt" = yes], [],
+      [AC_MSG_FAILURE([failed to find crypt])])
 LIBS=$BACKUP_LIBS
 AC_SUBST(LIBCRYPT)
 
